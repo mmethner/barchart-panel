@@ -1,0 +1,24 @@
+{
+  "type": "panel",
+  "name": "Bar Chart",
+  "id": "grafana-barchart-panel",
+
+  "info": {
+    "description": "Bar chart panel for grafana",
+    "author": {
+      "name": "Mathias Methner",
+      "url": "https://mathiasmethner.de"
+    },
+    "keywords": ["barchart", "panel"],
+    "links": [
+      {"name": "Project site", "url": "https://bitbucket.scm.otto.de/projects/BRAIN/repos/brain_realtime_stack/browse/dashboards/grafana-plugins/barchart-panel"}
+    ],
+    "version": "1.0.0",
+    "updated": "2016-08-23"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "3.x.x",
+    "plugins": [ ]
+  }
+}
