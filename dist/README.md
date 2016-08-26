@@ -1,6 +1,6 @@
 The barchart-panel is based on the original grafana [piechart-panel](https://github.com/grafana/piechart-panel)
 
-![Barchart Screenshot](/src/img/barchart-panel.png?raw=true)
+![Barchart Screenshot](https://raw.githubusercontent.com/mmethner/barchart-panel/master/src/img/barchart-panel.png)
 
 # Installation
 
