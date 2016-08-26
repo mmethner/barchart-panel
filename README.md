@@ -1,5 +1,7 @@
 The barchart-panel is based on the original grafana [piechart-panel](https://github.com/grafana/piechart-panel)
 
+![Barchart Screenshot](/src/img/barchart-panel.png?raw=true)
+
 # Installation
 
 Until this plugin is not pushed to grafana.net, just clone the barchart-panel repository to your 
