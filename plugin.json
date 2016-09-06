@@ -6,6 +6,7 @@
     "description": "Bar chart panel for grafana",
     "author": {
       "name": "Mathias Methner",
+      "email": "mathiasmethner@gmail.com",
       "url": "https://mathiasmethner.de"
     },
     "keywords": [
