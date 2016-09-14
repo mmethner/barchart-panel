@@ -27,3 +27,17 @@ To start grafana with a local copy run
 docker build -t barchart-panel .
 docker run -p3000:3000 barchart-panel
 ```
+
+# Development
+
+Install node_modules ``npm install`` and grunt cli ``npm install -g grunt-cli``   
+Build ``grunt``
+
+To develop with a running grafana instance, start the file watcher 
+and mount the sources to docker:
+
+```
+grunt watch
+docker build -t barchart-panel .
+docker run -p3000:3000 -v $WORKSPACE/barchart-panel:/data/plugins/grafana-barchart-panel/ barchart-panel 
+```

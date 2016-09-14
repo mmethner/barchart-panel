@@ -74,7 +74,7 @@ System.register(["lodash", "app/plugins/sdk", "app/core/utils/kbn", "app/core/ti
                 function BarChartCtrl($scope, $injector, $rootScope) {
                     _classCallCheck(this, BarChartCtrl);
 
-                    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(BarChartCtrl).call(this, $scope, $injector));
+                    var _this = _possibleConstructorReturn(this, (BarChartCtrl.__proto__ || Object.getPrototypeOf(BarChartCtrl)).call(this, $scope, $injector));
 
                     _this.$rootScope = $rootScope;
 
