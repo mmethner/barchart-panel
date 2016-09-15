@@ -71,7 +71,7 @@ angular.module('grafana.directives').directive('barchartLegend', function() {
           html += '</span>';
 
           if (panel.legend.values) {
-            html += '<div class="graph-legend-value no-pointer '+ctrl.panel.valueName+'">' + ctrl.formatValue(series.stats[ctrl.panel.valueName]) + '</div>';
+            html += '<div class="graph-legend-value no-pointer '+ctrl.panel.valueName+'">' + series.formatValue(series.stats[ctrl.panel.valueName]) + '</div>';
           }
 
           html += '</div>';

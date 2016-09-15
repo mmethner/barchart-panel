@@ -217,7 +217,7 @@ export class BarChartCtrl extends MetricsPanelCtrl {
 
             var plotSeries = [];
             var plotTicks = [];
-            _.map(data, (origData, i) => {
+            _.map(data, function(origData, i) {
                 plotSeries.push({
                                     label: origData.label,
                                     data: [[
